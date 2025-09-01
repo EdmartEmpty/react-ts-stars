@@ -1,10 +1,10 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
-import Starts from "./Stars/Stars .tsx";
+import Stars from "./Stars/Stars.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Starts count={4} />
+    <Stars count={4} />
   </StrictMode>
 );

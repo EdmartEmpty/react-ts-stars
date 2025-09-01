@@ -1,4 +1,4 @@
-import "./Starts.css";
+import "./Stars.css";
 import Star from "../Star/Star";
 
 interface NumberStar {
